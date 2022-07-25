@@ -25,6 +25,14 @@ h1, p {
     color: white;
 }
 
+.cashGivenDiv {
+    display: none;
+}
+
+.tableOutput {
+    display: none;
+}
+
 label{
     color: var(--faint-green);
     padding: 1rem;
@@ -54,6 +62,7 @@ table{
 
 caption{
     padding: 1rem;
+    color: var(--faint-green);
 }
 
 table, th, td{
