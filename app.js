@@ -29,11 +29,16 @@ checkButton.addEventListener("click", function validateBillandCashAmount(){
     hideErrorMessage();
     if(billAmount.value >0 && cashGiven.value > 0) {
 
-        if (cashGiven.value >= billAmount.value) {
+        if (cashGiven.value > billAmount.value) {
 
             const amountToBeReturned = cashGiven.value - billAmount.value;
             calculateChange(amountToBeReturned);
-        }else {
+        }
+        else if (cashGiven.value === billAmount.value) {
+            errorMessageShown("Cash given = bill amount. No change.");
+            clearNoOfNotes();
+        }
+        else {
 
             errorMessageShown("Cash given cannot be less than bill amount.");
             clearNoOfNotes();
