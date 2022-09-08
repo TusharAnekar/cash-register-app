@@ -82,3 +82,13 @@ table, th, td{
 th,td{
     word-wrap: break-word;
 }
+
+footer {
+    color: white;    
+}
+
+.footer-links {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+}
