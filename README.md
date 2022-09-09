@@ -1,8 +1,14 @@
-# cash-register-app
- A simple cash register app which helps the user by telling how can he/she return the change to the customer with a minimum number of notes.
+<h1>Cash Register Application</h1>
+This is a cash managing application which helps you to return the change if needed in least possible denominations.
 
-Problem Statement
-Your program has currencies of Rs. 1, 5, 10, 20, 100, 500, 2000.
-Your user enters a bill amount say Rs. 243.
-Your user then enters cash given say Rs. 2000.
-Now, help the user by telling how can he/she return the change to the customer with a minimum number of notes?
+<h1>How does it work?</h1>
+First user should enter the Bill Amount and then click on Next button. After clicking Next button Cash Given should be entered. And then then click on Check button to see the change required to be given.
+
+<h1>Tech Stack Used:</h1>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+
+<img src="/images/CashRegister.PNG">
